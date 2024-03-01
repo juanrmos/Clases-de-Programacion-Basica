@@ -5,7 +5,7 @@ using namespace std;
 
 int Pal (string ora, int nu){
 vector <string> abc {"abcdefghijklmnñopqrstuvwxyz"};
-   for (int i = 0; i < nu; i++){
+for (int i = 0; i < nu; i++){
     if (ora[i] != ora[nu-1-i]){
         cout<<"No es palindromo";
         break;
@@ -13,8 +13,8 @@ vector <string> abc {"abcdefghijklmnñopqrstuvwxyz"};
         cout<<"Es palindromo"<<endl;
         break;
     }
-   }
-   return 1;
+}
+return 1;
 }
 int main (){
     
