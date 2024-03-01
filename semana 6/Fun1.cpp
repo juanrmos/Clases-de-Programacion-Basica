@@ -3,7 +3,7 @@
 using namespace std;
 
 void Mostrar(int a, int b, int c, int d, int e, int su){
-cout<<a<<" + "<<<<b<<" + "<<c<<" + "<<d<<" + "<<e<<" = "<<su;
+cout<<a<<" + "<<b<<" + "<<c<<" + "<<d<<" + "<<e<<" = "<<su;
 }
 
 int Sumar(int a, int b, int c, int d, int e){

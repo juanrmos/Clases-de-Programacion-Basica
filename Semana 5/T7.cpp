@@ -15,7 +15,6 @@ struct Alumno {
 };
 
 int main() {
-   
     int N;
     cout << "Ingrese el numero de estudiantes: ";
     cin >> N;
