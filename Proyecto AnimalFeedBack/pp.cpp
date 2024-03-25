@@ -208,7 +208,7 @@ void agregarAnimal(Animal inventario[], int &tam) {
 
     cout << "Ingrese la cantidad: ";
     while (!(cin >> cantidad)) {
-        cout << "Por favor, ingrese un valor válido para la cantidad." << endl;
+        cout << "Por favor, ingrese un valor valido para la cantidad." << endl;
         limpiarBuffer();
     }
 
@@ -306,7 +306,7 @@ int main() {
     cout << "Seleccione una opcion: ";
 
         if (!(cin >> opcion)) {
-            cout << "Por favor, ingrese un valor valido para la opción." << endl;
+            cout << "Por favor, ingrese un valor valido para la opcion." << endl;
             limpiarBuffer();
             continue;
         }
@@ -347,7 +347,7 @@ int main() {
                 cout << "Saliendo del programa." << endl;
                 break;
             default:
-                cout << "Opción no valida. Intentelo de nuevo." << endl;
+                cout << "Opcion no valida. Intentelo de nuevo." << endl;
                 limpiarBuffer();
         }
     } while (opcion != 0);
